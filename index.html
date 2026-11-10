@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <title>TrueBag Resale</title>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1001743432057452');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1001743432057452&ev=PageView&noscript=1"/></noscript>
+  <!-- End Meta Pixel Code -->
+
+</head>
+
+<body>
+  <main class="main">
+    <div class="main__body">
+      <div class="main__img">
+        <img class="main__img-image" src="images/avatar.png" alt="TrueBag Resale">
+      </div>
+
+      <div class="main__title">
+        <p>TrueBag Resale</p>
+      </div>
+
+      <div class="main__subs">9938 підписників</div>
+
+      <div class="main__description">
+        Український luxury-бутик оригінальних сумок та аксесуарів від світових брендів 💕<br><br>
+        Менеджер - @truebagresale
+      </div>
+
+      <div class="tgme_page_action main__button">
+        <button class="tgme_action_button_new shine"
+                style="cursor: pointer;"
+                onclick="handleTelegramButtonClick()">
+          Перейти
+        </button>
+      </div>
+
+      <script>
+        function handleTelegramButtonClick() {
+          // Meta Lead Event
+          try { fbq('track', 'Lead'); } catch (e) {}
+
+          // Даємо події відправитися
+          setTimeout(function () {
+            window.location.href = 'https://t.me/+KkL8alfQ8do1MTJh';
+          }, 300);
+        }
+      </script>
+
+    </div>
+  </main>
+</body>
+</html>
